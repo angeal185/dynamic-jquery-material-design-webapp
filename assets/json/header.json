@@ -1,0 +1,33 @@
+﻿var headerData = [{}]
+var header = 
+{"<>":"header","id":"navigation","class":"root-sec white nav","html":[
+    {"<>":"div","class":"container","html":[
+        {"<>":"div","class":"row","html":[
+            {"<>":"div","class":"col-sm-12","html":[
+                {"<>":"div","class":"nav-inner","html":[
+                    {"<>":"nav","class":"primary-nav","html":[
+                        {"<>":"div","class":"clearfix nav-wrapper","html":[
+                            {"<>":"a","href":"#home","class":"left brand-logo menu-smooth-scroll","data-section":"#home","html":[
+                                {"<>":"img","src":"images/logo.png","alt":"","html":""}
+                              ]},
+                            {"<>":"a","href":"#","data-activates":"mobile-demo","class":"button-collapse","html":[
+                                {"<>":"i","class":"mdi-navigation-menu","html":""}
+                              ]},
+                            {"<>":"ul","class":"inline-menu side-nav","id":"mobile-demo","html":[
+                                {"<>":"li","class":"mobile-profile","html":[
+                                    {"<>":"div","class":"profile-inner","html":[
+                                        {"<>":"div","class":"pp-container","html":[
+                                            {"<>":"img","src":"images/person.png","html":""}
+                                          ]},
+                                        {"<>":"h3","html":"Name Here"},
+                                        {"<>":"h5","html":"Subtitle here"}
+                                      ]}
+                                  ]}
+                              ]}
+                          ]}
+                      ]}
+                  ]}
+              ]}
+          ]}
+      ]}
+  ]};

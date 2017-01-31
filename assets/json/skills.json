@@ -1,0 +1,29 @@
+﻿var skillData  = [
+		{'skill':'skill-1','percent':'100'},
+		{'skill':'skill-2','percent':'90'},
+		{'skill':'skill-3','percent':'80'},
+		{'skill':'skill-4','percent':'70'},
+		{'skill':'skill-5','percent':'60'},
+		{'skill':'skill-6','percent':'50'},
+		{'skill':'skill-7','percent':'40'},
+		{'skill':'skill-8','percent':'30'},
+		{'skill':'skill-9','percent':'40'},
+		{'skill':'skill-10','percent':'50'},
+	];
+
+var skill =
+{"<>":"div","class":"single-skill","html":[
+    {"<>":"div","class":"after-li","html":[
+        {"<>":"div","class":"singel-hr","html":[
+            {"<>":"div","class":"singel-hr-inner","data-height":"${percent}%","html":[
+                {"<>":"div","class":"skill-visiable","html":[
+                    {"<>":"span","class":"skill-title","html":"${skill}"},
+                    {"<>":"div","class":"hr-wrap","html":[
+                        {"<>":"div","class":"hrc","html":""}
+                      ]}
+                  ]}
+              ]},
+            {"<>":"span","class":"skill-count","html":"${percent}%"}
+          ]}
+      ]}
+  ]};

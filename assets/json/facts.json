@@ -1,0 +1,20 @@
+﻿var factsData  = [
+		{'icon':'mdi-action-grade','count':'150','label':'label 1'},
+		{'icon':'mdi-action-settings','count':'230','label':'label 2'},
+		{'icon':'mdi-action-done-all','count':'79','label':'label 3'}
+	];
+	
+var facts =
+{"<>":"div","class":"col-sm-4 funfact-box","html":[
+    {"<>":"div","class":"center-align card-panel white","html":[
+        {"<>":"div","class":"feature-box-outer","html":[
+            {"<>":"div","class":"funfact-box-inner","html":[
+                {"<>":"div","class":"clearfix ","html":[
+                    {"<>":"i","class":"${icon}","html":""},
+                    {"<>":"span","class":"num countNumb","html":"${count}"}
+                  ]},
+                {"<>":"div","class":"context","html":"${label}"}
+              ]}
+          ]}
+      ]}
+  ]};

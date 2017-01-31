@@ -1,0 +1,26 @@
+﻿var pInfoData  = [
+		{'label':'Name','answer':'Name here'},
+		{'label':'Age','answer':'Age here'},
+		{'label':'Phone','answer':'Phone here'},
+		{'label':'Email','answer':'Email here'},
+		{'label':'Address','answer':'Address here'}
+	];
+
+var pInfo = 
+{"<>":"h5","html":"${label} : ${answer}"};
+
+var socData  = [
+		{'href':'#','icon':'facebook'},
+		{'href':'#','icon':'twitter'},
+		{'href':'#','icon':'google-plus'},
+		{'href':'#','icon':'linkedin'},
+		{'href':'#','icon':'codepen'},
+		{'href':'#','icon':'github'}
+	];
+	
+var soc =
+{"<>":"li","html":[
+    {"<>":"a","href":"${href}","class":"btn-floating waves-effect waves-light white","html":[
+        {"<>":"i","class":"fa fa-${icon}","html":""}
+      ]}
+  ]};

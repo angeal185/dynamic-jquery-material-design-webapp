@@ -1,0 +1,17 @@
+﻿var navData  = [
+		{'href':'#about','icon':'user','title':'About'},
+		{'href':'#resume','icon':'file-text','title':'Resume'},
+		{'href':'#portfolio','icon':'briefcase','title':'Portfolio'},
+		{'href':'#team','icon':'users','title':'Team'},
+		{'href':'#testimonial','icon':'comments','title':'Testimonial'},
+		{'href':'#blog','icon':'pencil','title':'Blog'},
+		{'href':'#contact','icon':'paper-plane','title':'Contact'}
+	];
+
+var nav =
+{"<>":"li","html":[
+    {"<>":"a","href":"${href}","data-section":"${href}","class":"menu-smooth-scroll","html":[
+        {"<>":"i","class":"fa fa-${icon} fa-fw","html":""},
+        {"<>":"em","html":"${title}"}
+      ]}
+  ]}

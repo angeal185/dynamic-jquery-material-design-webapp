@@ -1,0 +1,24 @@
+﻿var testimonialsData  = [
+		{'delay':'','duration':'.7s','href':'#','src':'images/avatar.png','label':'Add review 1','name':'Name here','title':'location here'},
+		{'delay':'.2','duration':'.7s','href':'#','src':'images/avatar.png','label':'Add review 2','name':'Name here','title':'location here'},
+		{'delay':'','duration':'','href':'#','src':'images/avatar.png','label':'Add review 3','name':'Name here','title':'location here'},
+		{'delay':'','duration':'','href':'#','src':'images/avatar.png','label':'Add review 4','name':'Name here','title':'location here'},
+		{'delay':'','duration':'','href':'#','src':'images/avatar.png','label':'Add review 5','name':'Name here','title':'location here'},
+		{'delay':'','duration':'','href':'#','src':'images/avatar.png','label':'Add review 6','name':'Name here','title':'location here'}
+	];
+
+var testimonials = 
+{"<>":"div","class":"col-sm-6 single-card-box wow fadeInUpSmall","data-wow-delay":"${delay}","data-wow-duration":"${duration}","html":[
+    {"<>":"div","class":"card","html":[
+        {"<>":"div","class":"card-image waves-effect waves-block waves-light","html":[
+            {"<>":"div","class":"card-img-wrap","html":[
+                {"<>":"img","class":"activator","src":"${src}","html":""},
+                {"<>":"p","class":"saying-about","html":"${label}"}
+              ]}
+          ]},
+        {"<>":"div","class":"card-content","html":[
+            {"<>":"span","class":"card-title activator brand-text","html":"${name} -"},
+            {"<>":"a","href":"${href}","html":"${title}"}
+          ]}
+      ]}
+  ]};

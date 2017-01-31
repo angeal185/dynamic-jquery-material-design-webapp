@@ -1,0 +1,33 @@
+﻿var blogArticleData  = [
+		{'delay':'','duration':'.7s','href':'#','src':'http://placehold.it/350x200','label':'Blog post 1','content':'','likes':'15'},
+		{'delay':'.2','duration':'.7s','href':'#','src':'http://placehold.it/350x200','label':'Blog post 2','content':'','likes':'30'},
+		{'delay':'.4','duration':'.7s','href':'#','src':'http://placehold.it/350x200','label':'Blog post 3','content':'','likes':'45'}
+	];
+	
+var blogArticle =
+{"<>":"article","class":"col-sm-6 col-md-4 single-card-box single-post","html":[
+    {"<>":"div","class":"card wow fadeInUpSmall","data-wow-delay":"${delay}","data-wow-duration":"${duration}","html":[
+        {"<>":"div","class":"card-image","html":[
+            {"<>":"div","class":"card-img-wrap","html":[
+                {"<>":"div","class":"blog-post-thumb waves-effect waves-block waves-light","html":[
+                    {"<>":"a","href":"${href}","html":[
+                        {"<>":"img","class":"activator","src":"${src}","html":""}
+                      ]}
+                  ]},
+                {"<>":"div","class":"post-body","html":[
+                    {"<>":"a","href":"${href}","class":"post-title-link brand-text","html":[
+                        {"<>":"h2","class":"post-title","html":"${label}"}
+                      ]},
+                    {"<>":"p","class":"post-content","html":""}
+                  ]}
+              ]}
+          ]},
+        {"<>":"div","class":"clearfix card-content","html":[
+            {"<>":"a","href":"#","class":"left js-favorite","title":"Like this","html":[
+                {"<>":"i","class":"mdi-action-favorite","html":""},
+                {"<>":"span","class":"numb","html":"${likes}"}
+              ]},
+            {"<>":"a","href":"${href}","class":"brand-text right waves-effect","html":"Read More"}
+          ]}
+      ]}
+  ]};

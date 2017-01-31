@@ -1,0 +1,35 @@
+﻿var footerData  = [
+		{'label':'2016 ben eaves'},
+	];
+	
+var footer =
+{"<>":"footer","id":"footer","class":"root-sec white root-sec footer-wrap","html":[
+    {"<>":"div","class":"container","html":[
+        {"<>":"div","class":"row","html":[
+            {"<>":"div","class":"col-sm-12","html":[
+                {"<>":"div","class":"clearfix footer-inner","html":[
+                    {"<>":"ul","id":"socialIcons","class":"left social-icons","html":""},
+                    {"<>":"div","class":"right copyright","html":[
+                        {"<>":"p","html":"${label}"}
+                      ]}
+                  ]}
+              ]}
+          ]}
+      ]}
+  ]};
+
+var socialIconsData  = [
+		{'href':'#','class':'facebook','label':'Facebook'},
+		{'href':'#','class':'linkedin','label':'Linkedin'},
+		{'href':'#','class':'twitter','label':'Twitter'},
+		{'href':'#','class':'google-plus','label':'Google plus'},
+		{'href':'#','class':'codepen','label':'Codepen'},
+		{'href':'#','class':'github','label':'Github'}
+	];
+
+var socialIcons =
+{"<>":"li","html":[
+    {"<>":"a","href":"${href}","class":"tooltips tooltipped ${class}","data-position":"top","data-delay":"50","data-tooltip":"${label}","html":[
+        {"<>":"i","class":"fa fa-${class}","html":""}
+      ]}
+  ]};

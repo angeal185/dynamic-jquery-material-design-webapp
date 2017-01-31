@@ -1,0 +1,334 @@
+﻿var bodyData = [{}]
+var body = [
+  {"<>":"section","id":"home","class":"scroll-section root-sec grey lighten-5 home-wrap","html":[
+      {"<>":"div","class":"sec-overlay","html":[
+          {"<>":"div","class":"container","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"div","class":"col-sm-12","html":[
+                      {"<>":"div","class":"home-inner","html":[
+                          {"<>":"div","class":"center-align home-content","html":[
+                              {"<>":"h1","class":"home-title","html":[
+                                  {"<>":"span","html":"Name Here"}
+                                ]},
+                              {"<>":"h2","class":"home-subtitle","html":"Subtitle here"},
+                              {"<>":"a","href":"#contact","class":"hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text","html":[
+                                  {"<>":"i","class":"mdi-content-send left","html":""}
+                                ]}
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]},
+          {"<>":"div","class":"section-call-to-area","html":[
+              {"<>":"div","class":"container","html":[
+                  {"<>":"div","class":"row","html":[
+                      {"<>":"a","href":"#about","class":"btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden","data-section":"#about","html":[
+                          {"<>":"i","class":"mdi-navigation-expand-more","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"about","class":"scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap","html":[
+      {"<>":"div","class":"container","html":[
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"clearfix about-inner","html":[
+                  {"<>":"div","class":"col-sm-12 col-md-4","html":[
+                      {"<>":"div","class":"person-about","html":[
+                          {"<>":"h3","class":"about-subtitle","html":"My Story"},
+                          {"<>":"p","class":"regular-text","html":""},
+                          {"<>":"a","class":"waves-effect waves-light btn-large brand-bg white-text","html":[
+                              {"<>":"i","class":"mdi-content-archive left","html":""}
+                            ]}
+                        ]}
+                    ]},
+                  {"<>":"div","class":"col-sm-6 col-md-4","html":[
+                      {"<>":"div","class":"person-img wow fadeIn","html":[
+                          {"<>":"img","class":"z-depth-1","src":"images/person.png","alt":"","html":""}
+                        ]}
+                    ]},
+                  {"<>":"div","class":"col-sm-6 col-md-4","html":[
+                      {"<>":"div","id":"pInfo","class":"person-info","html":[
+                          {"<>":"h3","class":"about-subtitle","html":"Information"}
+                        ]},
+                      {"<>":"div","id":"aboutSocial","class":"about-social","html":[
+                          {"<>":"ul","id":"soc","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"resume","class":"scroll-section ","html":[
+      {"<>":"section","id":"skill","class":"root-sec white skill-wrap","html":[
+          {"<>":"div","class":"sec-overlay","html":[
+              {"<>":"div","class":"container","html":[
+                  {"<>":"div","class":"row","html":[
+                      {"<>":"div","class":"clearfix skill-inner","html":[
+                          {"<>":"div","class":"col-sm-12 col-md-3","html":[
+                              {"<>":"div","class":"skill-left","html":[
+                                  {"<>":"h2","class":"title","html":"Skills"},
+                                  {"<>":"p","class":"regular-text","html":""}
+                                ]}
+                            ]},
+                          {"<>":"div","class":"col-sm-12 col-md-6 col-md-offset-1","html":[
+                              {"<>":"div","class":"skill-right","html":[
+                                  {"<>":"div","id":"skillSlider","class":"clearfix skill-graph","html":""}
+                                ]}
+                            ]}
+                        ]}
+                    ]},
+                  {"<>":"div","class":"btn-wrapp skl-ctrl","html":[
+                      {"<>":"a","class":"btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left","html":[
+                          {"<>":"i","class":"mdi-navigation-chevron-left ","html":""}
+                        ]},
+                      {"<>":"a","class":"btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right","html":[
+                          {"<>":"i","class":"mdi-navigation-chevron-right ","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]},
+      {"<>":"section","id":"experience","class":"root-sec padd-tb-120 brand-bg experience-wrap","html":[
+          {"<>":"div","class":"container","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"div","class":"experience-inner","html":[
+                      {"<>":"div","class":"col-sm-12 col-md-10 card-box-wrap","html":[
+                          {"<>":"div","class":"row","html":[
+                              {"<>":"div","class":"clearfix section-head experience-text","html":[
+                                  {"<>":"div","class":"col-sm-12","html":[
+                                      {"<>":"h2","class":"title","html":"Experience"},
+                                      {"<>":"p","class":"regular-text","html":""}
+                                    ]}
+                                ]},
+                              {"<>":"div","class":"col-lg-12","html":[
+                                  {"<>":"div","class":"","html":[
+                                      {"<>":"div","class":"row","html":[
+                                          {"<>":"div","id":"experienceSlider","class":"clearfix card-element-wrapper wow fadeInUpSmall","data-wow-duration":".7s","html":""}
+                                        ]}
+                                    ]}
+                                ]}
+                            ]}
+                        ]},
+                      {"<>":"div","class":"btn-wrapp exp-ctrl","html":[
+                          {"<>":"a","class":"btn-floating waves-effect waves-light btn-large white go go-left","html":[
+                              {"<>":"i","class":"mdi-navigation-chevron-left brand-text","html":""}
+                            ]},
+                          {"<>":"a","class":"btn-floating waves-effect waves-light btn-large white go go-right","html":[
+                              {"<>":"i","class":"mdi-navigation-chevron-right brand-text","html":""}
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]},
+      {"<>":"section","id":"education","class":"root-sec grey lighten-5 padd-tb-120 education-wrap","html":[
+          {"<>":"div","class":"container","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"div","class":"education-inner","html":[
+                      {"<>":"div","class":"col-sm-12 col-md-10 card-box-wrap","html":[
+                          {"<>":"div","class":"row","html":[
+                              {"<>":"div","class":"clearfix section-head education-text","html":[
+                                  {"<>":"div","class":"col-sm-12","html":[
+                                      {"<>":"h2","class":"title","html":"education"},
+                                      {"<>":"p","class":"regular-text","html":""}
+                                    ]}
+                                ]},
+                              {"<>":"div","class":"col-lg-12","html":[
+                                  {"<>":"div","class":"","html":[
+                                      {"<>":"div","class":"row","html":[
+                                          {"<>":"div","id":"educationSlider","class":"clearfix card-element-wrapper wow fadeInUpSmall","data-wow-duration":".7s","html":""}
+                                        ]}
+                                    ]}
+                                ]}
+                            ]}
+                        ]},
+                      {"<>":"div","class":"btn-wrapp edu-ctrl","html":[
+                          {"<>":"a","class":"btn-floating waves-effect waves-light btn-large brand-bg go go-left","html":[
+                              {"<>":"i","class":"mdi-navigation-chevron-left","html":""}
+                            ]},
+                          {"<>":"a","class":"btn-floating waves-effect waves-light btn-large brand-bg go go-right","html":[
+                              {"<>":"i","class":"mdi-navigation-chevron-right","html":""}
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"portfolio","class":"scroll-section root-sec white portfolio-wrap","html":[
+      {"<>":"div","class":"padd-tb-120 brand-bg portfolio-top","html":[
+          {"<>":"div","class":"portfolio-inner","html":[
+              {"<>":"div","class":"container","html":[
+                  {"<>":"div","class":"row","html":[
+                      {"<>":"div","class":"col-sm-12","html":[
+                          {"<>":"h2","class":"title","html":"PORTFOLIO"},
+                          {"<>":"ul","class":"inline-menu clearfix portfolio-category","id":"portfolio-msnry-sort","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]},
+      {"<>":"div","id":"portfolioModal","class":"modal white","html":[
+          {"<>":"div","class":"model-img","html":""},
+          {"<>":"div","class":"modal-content","html":[
+              {"<>":"h2","class":"title","html":"Lorem ipsum dolor sit fugit dolore."},
+              {"<>":"p","class":"m-content","html":""}
+            ]},
+          {"<>":"div","class":"modal-footer","html":[
+              {"<>":"a","href":"#","target":"_blank","class":"waves-effect btn-flat brand-text modal-action","html":"link"},
+              {"<>":"a","href":"#","class":"waves-effect btn-flat brand-text modal-action modal-close","html":"cancel"}
+            ]}
+        ]},
+      {"<>":"div","class":"portfolio-bottom","html":[
+          {"<>":"div","class":"container","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"div","class":"col-sm-12","html":[
+                      {"<>":"ul","class":"clearfix protfolio-item","id":"protfolio-msnry","html":""},
+                      {"<>":"a","id":"portfolio-item-loader","href":"#","class":"btn-floating btn-large waves-effect waves-light brand-bg","html":[
+                          {"<>":"i","class":"mdi-content-add","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"team","class":"scroll-section root-sec brand-bg padd-tb-120 team-wrap","html":[
+      {"<>":"div","class":"container","html":[
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"clearfix team-inner","html":[
+                  {"<>":"div","class":"col-sm-12 col-md-10 card-box-wrap","html":[
+                      {"<>":"div","class":"row","html":[
+                          {"<>":"div","class":"clearfix section-head team-text","html":[
+                              {"<>":"div","class":"col-sm-12","html":[
+                                  {"<>":"h2","class":"title","html":"our team"},
+                                  {"<>":"p","class":"regular-text","html":""}
+                                ]}
+                            ]},
+                          {"<>":"div","class":"col-lg-12","html":[
+                              {"<>":"div","class":"","html":[
+                                  {"<>":"div","class":"row","html":[
+                                      {"<>":"div","id":"teamSlider","class":"clearfix card-element-wrapper wow fadeInUpSmall","data-wow-duration":".7s","html":""}
+                                    ]}
+                                ]}
+                            ]}
+                        ]}
+                    ]},
+                  {"<>":"div","class":"btn-wrapp tmu-ctrl","html":[
+                      {"<>":"a","class":"btn-floating waves-effect waves-light btn-large white go go-left","html":[
+                          {"<>":"i","class":"mdi-navigation-chevron-left brand-text","html":""}
+                        ]},
+                      {"<>":"a","class":"btn-floating waves-effect waves-light btn-large white go go-right","html":[
+                          {"<>":"i","class":"mdi-navigation-chevron-right brand-text","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"funfacts","class":"root-sec grey lighten-5 funfact-wrap","html":[
+      {"<>":"div","class":"sec-inner padd-tb-120","html":[
+          {"<>":"div","class":"container","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"div","id":"facts","class":"funfact-inner","html":""}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"testimonial","class":"scroll-section root-sec brand-bg padd-tb-120 testimonial-wrap","html":[
+      {"<>":"div","class":"container","html":[
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"testimonial-inner","html":[
+                  {"<>":"div","class":"col-sm-12 col-md-10 card-box-wrap","html":[
+                      {"<>":"div","class":"row","html":[
+                          {"<>":"div","class":"clearfix section-head testimonial-text","html":[
+                              {"<>":"div","class":"col-sm-12","html":[
+                                  {"<>":"h2","class":"title","html":"testimonial"},
+                                  {"<>":"p","class":"regular-text","html":""}
+                                ]}
+                            ]},
+                          {"<>":"div","class":"col-lg-12","html":[
+                              {"<>":"div","class":"","html":[
+                                  {"<>":"div","class":"row","html":[
+                                      {"<>":"div","id":"testimonialSlider","class":"clearfix card-element-wrapper","html":""}
+                                    ]}
+                                ]}
+                            ]}
+                        ]}
+                    ]},
+                  {"<>":"div","class":"btn-wrapp tmo-ctrl","html":[
+                      {"<>":"a","class":"btn-floating waves-effect waves-light btn-large white go go-left","html":[
+                          {"<>":"i","class":"mdi-navigation-chevron-left brand-text","html":""}
+                        ]},
+                      {"<>":"a","class":"btn-floating waves-effect waves-light btn-large white go go-right","html":[
+                          {"<>":"i","class":"mdi-navigation-chevron-right brand-text","html":""}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"blog","class":"scroll-section root-sec grey lighten-5 padd-tb-120 blog-wrap","html":[
+      {"<>":"div","class":"container","html":[
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"blog-inner","html":[
+                  {"<>":"div","class":"col-sm-12 card-box-wrap","html":[
+                      {"<>":"div","class":"row","html":[
+                          {"<>":"div","class":"clearfix section-head blog-text","html":[
+                              {"<>":"div","class":"col-sm-10","html":[
+                                  {"<>":"h2","class":"title","html":"Blog"},
+                                  {"<>":"p","class":"regular-text","html":""}
+                                ]}
+                            ]},
+                          {"<>":"div","class":"clearfix card-element-wrapper","id":"blog-posts","html":""},
+                          {"<>":"div","class":"clearfix left-align","html":[
+                              {"<>":"div","class":"col-sm-12","html":[
+                                  {"<>":"a","href":"blog.html","class":"waves-effect waves-light btn-large load-more","html":"See More"}
+                                ]}
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]},
+  {"<>":"section","id":"contact","class":"scroll-section root-sec brand-bg padd-tb-120 contact-wrap","html":[
+      {"<>":"div","class":"container","html":[
+          {"<>":"div","class":"row","html":[
+              {"<>":"div","class":"contact-inner","html":[
+                  {"<>":"div","class":"col-sm-12 card-box-wrap","html":[
+                      {"<>":"div","class":"row","html":[
+                          {"<>":"div","class":"clearfix section-head contact-text","html":[
+                              {"<>":"div","class":"col-sm-12","html":[
+                                  {"<>":"h2","class":"title","html":"Contact"},
+                                  {"<>":"p","class":"regular-text","html":""},
+                                  {"<>":"ul","id":"contactInfo","class":"clearfix contact-info","html":""}
+                                ]}
+                            ]},
+                          {"<>":"div","class":"clearfix contact-form","html":[
+                              {"<>":"div","class":"col-sm-7","html":[
+                                  {"<>":"div","class":"map-wrapper","html":[
+                                      {"<>":"div","id":"map","html":""}
+                                    ]}
+                                ]},
+                              {"<>":"div","class":"col-sm-5","html":[
+                                  {"<>":"div","id":"contactForm","class":"clearfix card-panel grey lighten-5 cform-wrapper","html":""}
+                                ]}
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]},
+      {"<>":"div","class":"section-call-to-area","html":[
+          {"<>":"div","class":"container","html":[
+              {"<>":"div","class":"row","html":[
+                  {"<>":"a","href":"#home","class":"btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden","data-section":"#home","html":[
+                      {"<>":"i","class":"mdi-navigation-expand-less","html":""}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]}
+];

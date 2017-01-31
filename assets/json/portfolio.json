@@ -1,0 +1,36 @@
+﻿var portfolioSortData  = [
+		{'class':'active','target':'*','html':'All'},
+		{'class':'','target':'.category-1','html':'category-1'},
+		{'class':'','target':'.category-2','html':'category-2'},
+		{'class':'','target':'.category-3','html':'category-3'},
+		{'class':'','target':'.category-4','html':'category-4'}
+	];
+
+var portfolioSort =
+{"<>":"li","class":"${class}","html":[
+    {"<>":"a","href":"#","data-target":"${target}","html":"${html}"}
+  ]};
+
+var portfolioData  = [
+		{'img':'http://placehold.it/390x280','name':'Name 1','href':'#','content':'Duis aute irure dolor in reprehenderit in voluptate velit','category':'category-1 category-3','title':'title 1'},
+		{'img':'http://placehold.it/390x280','name':'Name 2','href':'#','content':'Duis aute irure dolor in reprehenderit in voluptate velit','category':'category-2 category-1','title':'title 2'},
+		{'img':'http://placehold.it/390x280','name':'Name 3','href':'#','content':'Duis aute irure dolor in reprehenderit in voluptate velit','category':'category-1 category-2','title':'title 3'},
+		{'img':'http://placehold.it/390x280','name':'Name 4','href':'#','content':'Duis aute irure dolor in reprehenderit in voluptate velit','category':'category-1 category-3','title':'title 4'},
+		{'img':'http://placehold.it/390x280','name':'Name 5','href':'#','content':'Duis aute irure dolor in reprehenderit in voluptate velit','category':'category-1 category-3 category-4','title':'title 5'},
+		{'img':'http://placehold.it/390x280','name':'Name 6','href':'#','content':'Duis aute irure dolor in reprehenderit in voluptate velit','category':'category-2 category-4','title':'title 6'}
+	];
+
+var portfolio =
+{"<>":"li","class":"single-port-item ${category}","html":[
+    {"<>":"a","href":"#portfolioModal","class":"waves-effect waves-block waves-light modal-trigger","data-image-source":"http://placehold.it/650x350","data-title":"${title}","data-content":"${content}","data-demo-link":"${href}","html":[
+        {"<>":"div","class":"protfolio-image","html":[
+            {"<>":"img","src":"${img}","html":""},
+            {"<>":"div","class":"protfolio-content waves-effect waves-block waves-light","html":[
+                {"<>":"div","class":"protfolio-content__inner","html":[
+                    {"<>":"h2","class":"p-title","html":"${name}"}
+                  ]}
+              ]},
+            {"<>":"div","class":"p-overlay","html":""}
+          ]}
+      ]}
+  ]};

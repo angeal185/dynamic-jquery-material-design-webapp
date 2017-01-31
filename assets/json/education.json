@@ -1,0 +1,35 @@
+﻿var eduData  = [
+		{'date':'from - till','img':'http://placehold.it/400x300','award':'award 1','place':'place 1','content':''},
+		{'date':'from - till','img':'http://placehold.it/400x300','award':'award 2','place':'place 2','content':''},
+		{'date':'from - till','img':'http://placehold.it/400x300','award':'award 3','place':'place 3','content':''},
+		{'date':'from - till','img':'http://placehold.it/400x300','award':'award 4','place':'place 4','content':''}
+	];
+
+var edu =
+{"<>":"div","class":"col-sm-4 single-card-box","html":[
+    {"<>":"div","class":"card","html":[
+        {"<>":"div","class":"card-image waves-effect waves-block waves-light","html":[
+            {"<>":"h2","class":"left-align card-title-top","html":"${date}"},
+            {"<>":"div","class":"card-img-wrap","html":[
+                {"<>":"img","class":"activator","src":"${img}","html":""}
+              ]}
+          ]},
+        {"<>":"div","class":"card-content","html":[
+            {"<>":"span","class":"card-title activator brand-text","html":[
+                {"<>":"em","html":"${award}"},
+                {"<>":"i","class":"mdi-navigation-more-vert right","html":""}
+              ]},
+            {"<>":"p","html":"${place}"}
+          ]},
+        {"<>":"div","class":"card-reveal","html":[
+            {"<>":"div","class":"rev-title-wrap","html":[
+                {"<>":"span","class":"card-title activator brand-text","html":[
+                    {"<>":"em","html":"${award}"},
+                    {"<>":"i","class":"mdi-navigation-close right","html":""}
+                  ]},
+                {"<>":"p","html":"${place}"}
+              ]},
+            {"<>":"p","class":"rev-content","html":"${content}"}
+          ]}
+      ]}
+  ]};

@@ -1,0 +1,10 @@
+﻿var contactInfoData  = [
+		{'href':'#','label':'000 000 000'},
+		{'href':'#','label':'admin@admin.com'},
+		{'href':'#','label':'yourWebsite.com'}
+	];
+	
+var contactInfo =
+{"<>":"li","html":[
+    {"<>":"a","href":"${href}","html":"${label}"}
+  ]};
